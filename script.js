@@ -51,7 +51,7 @@ title.textContent = "A game of Rock, Paper and Scissors"
 document.body.appendChild(title);
 
 const rule = document.createElement("p")
-rule.textContent = "Rule: Best of 3"
+rule.textContent = "Rule: First to 5"
 rule.setAttribute(
     "style", "color:green; font-size: 20px; font-style: italic;"
 );
